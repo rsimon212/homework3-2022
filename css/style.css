@@ -109,7 +109,7 @@ nav a:focus {
 .intro {
   background-image: url('../images/header.jpg');
   min-height: 400px;
-  color: #DDDDDD;
+  color: #707070;
   
   background-attachment: fixed;
   background-position: center;
@@ -119,7 +119,6 @@ nav a:focus {
 
 .about, .clients, .method, .contact{
   grid-column: 2 / 3;
-  align-self: center;
 }
 
 img {
@@ -149,10 +148,9 @@ img {
   grid-row: 4/5;
 }
 
-
 .text {
-  text-align: center;
-  max-height: 25%;
+  align-self: center;
+  max-height: 25vh;
   overflow: scroll;
 }
 
@@ -171,7 +169,7 @@ img {
 
   
   /* Requirements 12-15 here: */
-  a[href="#main"]:focus {
+  a.skip:focus {
     outline: none;
     border-top: 2px solid yellow;
     left: initial;
