@@ -109,7 +109,7 @@ nav a:focus {
 .intro {
   background-image: url('../images/header.jpg');
   min-height: 400px;
-  color: #707070;
+  background-color: #707070;
   
   background-attachment: fixed;
   background-position: center;
@@ -179,7 +179,7 @@ img {
   .container {
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
-    grid-template-rows: 300px 300px 300x 300px;
+    grid-template-rows: 300px 300px 300px 300px;
   }
 
   .about, .method, .clients-image, .contact-image {
